@@ -1,5 +1,7 @@
 import React from "react";
 import myLogo from "../img/logoCoder.png";
+import CartWidge from "./CartWidget/CartWidget";
+import itemListContainer from "./itemListContainer/itemListContainer";
 
 export default function NavBar() {
     return (
@@ -14,6 +16,7 @@ export default function NavBar() {
         <input className="btn btn-primary" type="button" value="Cell phones"/>
         <input className="btn btn-primary" type="submit" value="Laptops"/>
         <input className="btn btn-primary" type="reset" value="Tablets"/>
+        <div><CartWidge/></div>
     </div>
     </nav>   
     
